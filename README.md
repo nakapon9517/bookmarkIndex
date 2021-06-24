@@ -2,10 +2,29 @@
 
 ## 手順
 
-- A Chrome のお気に入りをエクスポート
-- B リポジトリクローン
-- C ローカル反映
-- D Chrome の新規タブページに設定
+- ① Chrome のお気に入りをエクスポート
+
+```
+右上の 3 点リーダ
+> ブックマーク > ブックマークマネージャ
+> 右上の 3 点リーダ > ブックマークをエクスポート
+```
+
+- ② リポジトリクローン
+
+```
+git clone https://github.com/nakapon9517/bookmarkIndex.git
+```
+
+- ③ ローカル反映
+
+```
+cd bookmarkIndex
+①でエクスポートしたファイル名を「bookmarks.html」として同フォルダに保存
+template.htmlのCSSとJSの読み込みをコピペ
+```
+
+- ④ Chrome の新規タブページに設定
 
 ## やりたいこと
 
