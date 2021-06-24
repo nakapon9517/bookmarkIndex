@@ -1,0 +1,82 @@
+.color {
+  color: #90afc5;
+  color: #336b87;
+  color: #2a3132;
+  color: #763626;
+  color: #46211a;
+  color: #011a27;
+  color: #063852;
+}
+
+body {
+  margin-left: 0;
+}
+h1 {
+  display: none;
+}
+dl {
+  margin: 0;
+}
+dl > p {
+  display: none;
+}
+dt {
+  /* display: flex;
+  flex-direction: row; */
+
+  margin: 12px 4px;
+  padding: 12px 8px;
+  border: 4px solid #eee;
+  box-sizing: border-box;
+}
+
+dl > dt > dl {
+  padding-left: 12px;
+}
+dl > dt > dl {
+  margin-left: 48px;
+}
+h3 {
+  margin: 0;
+  /* width: 100%; */
+  padding: 8px 12px;
+  color: #fff;
+  background-color: #063852;
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border: 2px dashed gray;
+}
+h3 ~ dl {
+  /* padding: 12px 0; */
+  /* background-color: #90afc5; */
+  /* margin-bottom: 12px; */
+}
+a {
+  width: 100%;
+  /* padding: 4px 8px; */
+  /* border: 1px solid #ccc; */
+}
+.icon {
+  width: 16px;
+  height: 16px;
+  margin: 0 8px 0 0;
+}
+
+dl > dt > dl > dt > dl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+dl > dt > dl > dt > dl > dt > dl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+dl > dt > dl > dt > dl > dt > dl > dt > dl {
+}
+dl > dt > dl > dt > dl > dt > dl > dt > dl > dt {
+  display: flex;
+  flex-direction: row;
+}
